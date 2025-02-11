@@ -15,4 +15,5 @@ document.getElementById("randomise").onclick = function () {
   let index = Math.floor(Math.random() * pieces.length);
   let randomPiece = pieces[index];
   console.log(randomPiece);
+  window.location.href = "randomPiece";
 };
