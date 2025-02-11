@@ -14,4 +14,4 @@ document.getElementById("randomise").onclick = function getRandomIndex(pieces) {
   let index = Math.floor(Math.random() * pieces.length);
   return pieces[index];
 };
-console.log(getRandomIndex(pieces));
+// console.log(getRandomIndex(pieces));
