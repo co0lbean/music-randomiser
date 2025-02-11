@@ -10,7 +10,7 @@ const pieces = [
   "boleroravel.html",
 ];
 
-document.getElementById("randomise").onclick = function getRandomIndex(pieces) {
+document.getElementById("randomise").onclick = function () {
   let index = Math.floor(Math.random() * pieces.length);
-  return pieces[index];
+  let randomPiece = pieces[index];
 };
