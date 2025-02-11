@@ -1,43 +1,17 @@
-const tchaikovskyValseSentimentale = (
-  <a href="https://co0lbean.github.io/music-randomiser/valsesentimentale.html"></a>
-);
-const chopin24Preludes17 = (
-  <a href="https://co0lbean.github.io/music-randomiser/24preludesno17.html"></a>
-);
-const chopin24Preludes15 = (
-  <a href="https://co0lbean.github.io/music-randomiser/raindropno15.html"></a>
-);
-const rachConcerto2 = (
-  <a href="https://co0lbean.github.io/music-randomiser/rach_pianoconcertono2_2ndmvmnt.html"></a>
-);
-const schumannTraumerei = (
-  <a href="https://co0lbean.github.io/music-randomiser/traumereischumann.html"></a>
-);
-const dvorakHumoresque = (
-  <a href="https://co0lbean.github.io/music-randomiser/humoresquedvorak.html"></a>
-);
-const schubertImpromptu3 = (
-  <a href="https://co0lbean.github.io/music-randomiser/impromptuno3schubert.html"></a>
-);
-const ravelBolero = (
-  <a href="https://co0lbean.github.io/music-randomiser/boleroravel.html"></a>
-);
-const shostakovichStringQuartet8 = (
-  <a href="https://co0lbean.github.io/music-randomiser/dsch.html"></a>
-);
-
 const pieces = [
-  tchaikovskyValseSentimentale,
-  chopin24Preludes15,
-  chopin24Preludes17,
-  rachConcerto2,
-  schubertImpromptu3,
-  schumannTraumerei,
-  dvorakHumoresque,
-  ravelBolero,
-  shostakovichStringQuartet8,
+  "valsesentimentale.html",
+  "dsch.html",
+  "24preludesno17.html.html",
+  "raindropno15.html",
+  "rach_pianoconcertono2_2ndmvmnt.html",
+  "traumereischumann.html",
+  "humoresquedvorak.html",
+  "impromptuno3schubert.html",
+  "boleroravel.html",
 ];
 
-function getRandomIndex(pieces) {
-  return Math.floor(Math.random() * pieces.length);
-}
+document.getElementById("randomise").onclick = function getRandomIndex(pieces) {
+  let index = Math.floor(Math.random() * pieces.length);
+  return pieces[index];
+};
+console.log(getRandomIndex(pieces));
