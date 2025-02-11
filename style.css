@@ -1,0 +1,137 @@
+body {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 200;
+    font-size:large;
+    background-image: url(wallpaper.png)
+}
+
+.nav-bar li{
+    display: inline;
+    padding: 5px;
+    text-align: center;
+}
+
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: lavenderblush;
+    text-align:center;
+    top: 0;
+    left: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 125%;
+}
+
+.video {
+    text-align: center;
+}
+.intro {
+    text-align: center;
+}
+
+.composers{
+    text-align: justify;
+}
+
+.composers figure {
+    display: inline-block;
+    vertical-align: top;
+    width: 100.56pt; 
+    margin:0pt;
+    padding:0pt;
+}
+.composers figure figcaption{
+    text-align:center;
+    padding-top: 5pt;
+    height: 38px;
+    font-weight: bold;
+}
+
+.composers figure img{
+    vertical-align: top;
+    width: 100.56pt;
+    height: 123pt;
+}
+.rachsad {
+    text-align: center;
+}
+.rachsad figure img{
+    height: 50%;
+    width: auto;
+}
+.background {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 7%;
+    padding-bottom: 2%;
+    padding-left: 7%;
+    padding-right: 7%;
+    text-align: justify;
+    align-items: center;
+    background-color: lavenderblush
+}
+
+.information img{
+    width: 100%;
+}
+.relativekeys {
+    text-align: center;
+}
+.relativekeys img{
+    width: 60%;
+}
+
+.interpretation {
+    text-align: justify;
+}
+
+.interpretation img{
+    width: 100%;
+}
+
+figcaption {
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+}
+
+.quotedperson {
+    text-align: right;
+}
+.quotedperson img{
+    width: 20%;
+    padding-right: 15%;
+}
+
+.note {
+    font-size: x-small;
+    font-style: italic;
+}
+
+.button {
+    text-align:center;
+}
+button {
+        background-color:black; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        border-radius: 8px;
+        font-family:'Source Code Pro', monospace;
+}
+
+button:hover {
+    background-color:pink;
+    color: black;
+}
