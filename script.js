@@ -11,6 +11,8 @@ const pieces = [
 ];
 
 document.getElementById("randomise").onclick = function () {
+  console.log("Button clicked!");
   let index = Math.floor(Math.random() * pieces.length);
   let randomPiece = pieces[index];
+  console.log(randomPiece);
 };
