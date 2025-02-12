@@ -31,17 +31,19 @@ h2 {
 td {
   padding: 0 20px 15px 0;
 }
-
+.composers {
+  text-align: center;
+}
 .video {
   text-align: center;
 }
 .intro {
-  text-align: justify;
+  text-align: center;
 }
 .happylistening {
   text-align: center;
 }
-.composers {
+.composerspics {
   text-align: center;
   padding: 0 100px;
 }
