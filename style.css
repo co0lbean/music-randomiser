@@ -31,14 +31,12 @@ h2 {
 td {
   padding: 0 20px 15px 0;
 }
-.composers {
-  text-align: center;
-}
+
 .video {
   text-align: center;
 }
 .intro {
-  text-align: center;
+  text-align: justify;
 }
 .happylistening {
   text-align: center;
@@ -52,21 +50,21 @@ div::after {
   width: 100%;
   content: "";
 }
-.composers figure {
+.composerspics figure {
   display: inline-block;
   vertical-align: top;
   width: 100.56pt;
   margin: 0pt;
   padding: 0pt;
 }
-.composers figure figcaption {
+.composerspics figure figcaption {
   text-align: center;
   padding-top: 5pt;
   height: 38px;
   font-weight: bold;
 }
 
-.composers figure img {
+.composerspics figure img {
   vertical-align: top;
   width: 100.56pt;
   height: 123pt;
