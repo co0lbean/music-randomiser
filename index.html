@@ -15,7 +15,7 @@
       <nav id="nav-bar">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="glossary.html">Glossary</a></li>
+          <li><a href="list.html">The List</a></li>
         </ul>
       </nav>
     </div>
@@ -23,6 +23,40 @@
   <body>
     <div class="background">
       <h1>Random Classical Music Generator</h1>
+      <div class="intro">
+        <p>
+          Welcome, welcome! Listening to classical music is like reading a book.
+          Starting an hour-and-a-half concerto could be as daunting as embarking
+          on a 500-page book. This tool recommends shorter pieces to get you
+          started on this journey of discovering classical music.
+        </p>
+        <p>
+          Each page will have a link to the video, other arrangements, and some
+          background information. Some will also have examples of how one may
+          interpret the piece. This varies from person to person. With more
+          listening practice you'll be able to feel more and interpret things in
+          your own way.
+        </p>
+        <p>
+          If you're interested in learning more about music compositions,
+          <a href="https://www.youtube.com/@InsidetheScore">Inside the Score</a>
+          is a good place to start. Pre-requisite musical background or
+          knowledge is not required - but the curiosity and eagerness to learn
+          is rather necessary.
+        </p>
+        <p class="happylistening">Happy listening :)</p>
+        <div class="note">
+          <p font-size="medium">
+            *Due to copyright issues, some videos can't render on the website,
+            rather a hyperlink will be provided to redirect to YouTube.
+          </p>
+        </div>
+      </div>
+      <div class="button" id="randomise">
+        <button type="button">I'm all ears👂</button>
+      </div>
+      <br />
+      <br />
       <div class="composers">
         <figure>
           <a href="https://en.wikipedia.org/wiki/Pyotr_Ilyich_Tchaikovsky">
@@ -42,6 +76,24 @@
           <a href="https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Chopin">
             <img src="Frederic_Chopin_photo.jpeg" />
             <figcaption>Frédéric François Chopin</figcaption>
+          </a>
+        </figure>
+        <figure>
+          <a href="https://en.wikipedia.org/wiki/Robert_Schumann">
+            <img src="Robert_Schumann.jpg" />
+            <figcaption>Robert Schumann</figcaption>
+          </a>
+        </figure>
+        <figure>
+          <a href="https://en.wikipedia.org/wiki/Franz_Schubert">
+            <img src="Franz_Schubert.jpg" />
+            <figcaption>Franz Schubert</figcaption>
+          </a>
+        </figure>
+        <figure>
+          <a href="https://en.wikipedia.org/wiki/Anton%C3%ADn_Dvo%C5%99%C3%A1k">
+            <img src="Dvorak.jpg" />
+            <figcaption>Antonín Dvořák</figcaption>
           </a>
         </figure>
         <!--
@@ -70,44 +122,6 @@
             <figcaption>Sergei Rachmaninoff</figcaption>
           </a>
         </figure>
-      </div>
-      <div class="intro">
-        <p>
-          Welcome, welcome! Listening to classical music is like reading a book.
-          Starting an hour-and-a-half concerto could be as daunting as embarking
-          on a 500-page book. This tool recommends shorter pieces to get you
-          started on this journey of discovering classical music.
-        </p>
-        <br />
-        <p>
-          Each page will have a link to the video, other arrangements, and some
-          background information. Some will also have examples of how one may
-          interpret the piece. This varies from person to person. With more
-          listening practice you'll be able to feel more and interpret things in
-          your own way.
-        </p>
-
-        <br />
-        <p>
-          If you're interested in learning more about music compositions,
-          <a href="https://www.youtube.com/@InsidetheScore">Inside the Score</a>
-          is a good place to start. Pre-requisite musical background or
-          knowledge is not required - but the curiosity and eagerness to learn
-          is rather necessary.
-        </p>
-        <br />
-        <p>Happy listening :)</p>
-        <br />
-        <div class="note">
-          <p font-size="medium">
-            *Due to copyright issues, some videos can't render on the website,
-            rather a hyperlink will be provided to redirect to YouTube.
-          </p>
-        </div>
-        <br />
-      </div>
-      <div class="button" id="randomise">
-        <button type="button">randomise</button>
       </div>
     </div>
     <script src="script.js" defer></script>

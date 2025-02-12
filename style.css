@@ -1,137 +1,149 @@
 body {
-    font-family: 'Source Code Pro', monospace;
-    font-weight: 200;
-    font-size:large;
-    background-image: url(wallpaper.png)
+  font-family: "Source Code Pro", monospace;
+  font-weight: 200;
+  font-size: large;
+  background-image: url(wallpaper.png);
 }
 
-.nav-bar li{
-    display: inline;
-    padding: 5px;
-    text-align: center;
+.nav-bar li {
+  display: inline;
+  padding: 5px;
+  text-align: center;
 }
-
 
 header {
-    position: fixed;
-    width: 100%;
-    background-color: lavenderblush;
-    text-align:center;
-    top: 0;
-    left: 0;
+  position: fixed;
+  width: 100%;
+  background-color: lavenderblush;
+  text-align: center;
+  top: 0;
+  left: 0;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 h2 {
-    font-size: 125%;
+  font-size: 125%;
+  text-align: center;
+}
+td {
+  padding: 0 20px 15px 0;
 }
 
 .video {
-    text-align: center;
+  text-align: center;
 }
 .intro {
-    text-align: center;
+  text-align: justify;
 }
-
-.composers{
-    text-align: justify;
+.happylistening {
+  text-align: center;
 }
-
+.composers {
+  text-align: center;
+  padding: 0 100px;
+}
+div::after {
+  display: inline-block;
+  width: 100%;
+  content: "";
+}
 .composers figure {
-    display: inline-block;
-    vertical-align: top;
-    width: 100.56pt; 
-    margin:0pt;
-    padding:0pt;
+  display: inline-block;
+  vertical-align: top;
+  width: 100.56pt;
+  margin: 0pt;
+  padding: 0pt;
 }
-.composers figure figcaption{
-    text-align:center;
-    padding-top: 5pt;
-    height: 38px;
-    font-weight: bold;
+.composers figure figcaption {
+  text-align: center;
+  padding-top: 5pt;
+  height: 38px;
+  font-weight: bold;
 }
 
-.composers figure img{
-    vertical-align: top;
-    width: 100.56pt;
-    height: 123pt;
+.composers figure img {
+  vertical-align: top;
+  width: 100.56pt;
+  height: 123pt;
+  object-fit: cover;
 }
+
 .rachsad {
-    text-align: center;
+  text-align: center;
 }
-.rachsad figure img{
-    height: 50%;
-    width: auto;
+.rachsad figure img {
+  height: 50%;
+  width: auto;
 }
 .background {
-    margin-left: 15%;
-    margin-right: 15%;
-    padding-top: 7%;
-    padding-bottom: 2%;
-    padding-left: 7%;
-    padding-right: 7%;
-    text-align: justify;
-    align-items: center;
-    background-color: lavenderblush
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 7%;
+  padding-bottom: 2%;
+  padding-left: 7%;
+  padding-right: 7%;
+  text-align: justify;
+  align-items: center;
+  background-color: lavenderblush;
 }
 
-.information img{
-    width: 100%;
+.information img {
+  width: 100%;
 }
 .relativekeys {
-    text-align: center;
+  text-align: center;
 }
-.relativekeys img{
-    width: 60%;
+.relativekeys img {
+  width: 60%;
 }
 
 .interpretation {
-    text-align: justify;
+  text-align: justify;
 }
 
-.interpretation img{
-    width: 100%;
+.interpretation img {
+  width: 100%;
 }
 
 figcaption {
-    font-size: small;
-    font-style: italic;
-    text-align: center;
+  font-size: small;
+  font-style: italic;
+  text-align: center;
 }
 
 .quotedperson {
-    text-align: right;
+  text-align: right;
 }
-.quotedperson img{
-    width: 20%;
-    padding-right: 15%;
+.quotedperson img {
+  width: 20%;
+  padding-right: 15%;
 }
 
 .note {
-    font-size: x-small;
-    font-style: italic;
+  font-size: x-small;
+  font-style: italic;
 }
 
 .button {
-    text-align:center;
+  text-align: center;
 }
 button {
-        background-color:black; /* Green */
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 20px;
-        border-radius: 8px;
-        font-family:'Source Code Pro', monospace;
+  background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 8px;
+  font-family: "Source Code Pro", monospace;
 }
 
 button:hover {
-    background-color:pink;
-    color: black;
+  background-color: pink;
+  color: black;
 }
