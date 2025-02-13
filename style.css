@@ -4,17 +4,37 @@ body {
   font-size: large;
   background-image: url(wallpaper.png);
 }
-
+ul {
+  list-style-type: none;
+}
+nav-bar {
+  padding: 0;
+}
 .nav-bar li {
-  display: inline;
+  display: block;
   padding: 5px;
   text-align: center;
+  background-color: rgb(247, 157, 157); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Source Code Pro", monospace;
+  border-radius: 7px;
+}
+.nav-bar li:hover {
+  background-color: pink;
+  color: black;
+  cursor: pointer;
 }
 
 header {
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
-  background-color: lavenderblush;
+  /* background-color: rgb(255, 194, 214); */
   text-align: center;
   top: 0;
   left: 0;
@@ -104,6 +124,7 @@ div::after {
   text-align: justify;
   align-items: center;
   background-color: lavenderblush;
+  border-radius: 15px;
 }
 
 .information img {
@@ -137,18 +158,21 @@ figcaption {
   width: 20%;
   padding-right: 15%;
 }
-
+#noMatch {
+  text-align: center;
+  padding-bottom: 20px;
+}
 .note {
   font-size: x-small;
   font-style: italic;
   text-align: center;
 }
 
-.button {
+.randomise-button {
   text-align: center;
   background-color: transparent;
 }
-button {
+#randomise {
   background-color: black; /* Green */
   border: none;
   color: white;
