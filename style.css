@@ -141,6 +141,7 @@ figcaption {
 .note {
   font-size: x-small;
   font-style: italic;
+  text-align: center;
 }
 
 .button {
@@ -183,6 +184,7 @@ td {
   border-collapse: collapse;
   background-color: rgb(250, 207, 214);
 }
+th,
 td {
   padding: 10px;
 }
